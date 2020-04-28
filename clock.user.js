@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name				MaM Clock changer
 // @namespace			https://nowhere.com
-// @version				1.0
+// @version				1.01
 // @description		Changes site clock from UTC to Nepal time
 // @author				pyrokiller
 // @match				https://www.myanonamouse.net/*
