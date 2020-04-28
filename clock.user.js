@@ -18,7 +18,7 @@ function dT() {
     if ($(this).attr('data-dtype') == '1') {
       $(this).html(a.toUTCString().replace('GMT', ''))
     } else {
-      $(this).html(a.toISOString().replace('T', '').substring(0, 19))
+      $(this).html(a.toISOString().replace('T', ' ').substring(0, 19))
     }
   })
 }
