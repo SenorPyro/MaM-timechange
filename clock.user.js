@@ -24,6 +24,5 @@ function dT() {
 }
 
 function embedFunction() {
-document.body.appendChild(document.createElement('script'))
-.innerHTML=dT.toString().replace(/([\s\S]*?return;){2}([\s\S]*)}/,'$2');
+document.body.appendChild(document.createElement('script')).innerHTML=dT.toString();
 }
